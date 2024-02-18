@@ -1,4 +1,4 @@
-# Bamboo Card API project assessment
+# Bamboo Card API Project
 
 ## Overview 
 This README document provides an overview of the project's design, implementation details, development tools used, and instructions on running the application.
