@@ -21,7 +21,8 @@ namespace BambooCardAPI.Controllers
 
 
         [HttpGet]
-        public async Task<IEnumerable<Story>?> GetAllBestSotries(int recordCount)
+        [Route("GetBestSotries")]
+        public async Task<IEnumerable<Story>?> GetBestSotries(int recordCount)
         {
             return await _storyService.GetBestStories(recordCount);
         }
